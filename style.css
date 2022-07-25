@@ -1,0 +1,9 @@
+/* .input{
+    display: flex;
+    margin-left: 20px;
+    padding: 30px;
+} */
+
+.hidden {
+   visibility: hidden;
+}
