@@ -1,9 +1,13 @@
-/* .input{
-    display: flex;
-    margin-left: 20px;
-    padding: 30px;
-} */
+
 
 .hidden {
-   visibility: hidden;
+   display: none;
+}
+.headings{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.para {
+    text-align: center;
 }
