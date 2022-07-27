@@ -1,13 +1,79 @@
-
-
-.hidden {
-   display: none;
-}
-.headings{
+body {
+    justify-content: center;
     text-align: center;
-    font-size: 40px;
-    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: rgb(5, 30, 40); */
+    background-color: black;
+    color: white;
+   
 }
+.hidden {
+    display: none;
+}
+
+.headings {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 3.5rem;
+    color: goldenrod;
+}
+
 .para {
     text-align: center;
+}
+
+.h2 {
+    text-align: center;
+    color: rgb(137, 148, 163);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h1 {
+    text-align: center;
+    color: rgb(37, 111, 194);
+
+}
+
+.heading {
+    margin-left: 550px;
+    text-align: center;
+    display: flex;
+
+}
+
+#star {
+    text-align: center;
+    color: wheat;
+}
+
+#field {
+   
+    border-radius: 7px;
+    width: 40%;
+    margin: 10px auto;
+    border: 3px;
+    padding: 20px;
+    border-style: solid;
+    border-top-color: darkred;
+    border-left-color: darkcyan;
+    border-right-color: darkblue;
+    border-bottom-color: darkgoldenrod;
+    margin-top: 50px;
+}
+.age {
+    line-height: 2rem;
+    font-size: large;
+}
+button{
+    background-color: goldenrod;
+    width: 100px;
+    height: 25px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+#userage{
+    width: 150px;
+    height: 20px;
+    cursor: pointer ;
 }

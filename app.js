@@ -47,7 +47,7 @@ function calculate() {
         alert("Please select real date..")
         return false
     }
-    document.getElementById("age").innerHTML = (`you are ${year} years ${month} months & ${day} days old `)
+    document.getElementById("age").innerHTML = (`${year} years ${month} months & ${day} days old `)
 
     let birthday = new Date(
         date.getFullYear(),
@@ -65,6 +65,7 @@ function calculate() {
     document.getElementById("daysleft").innerText = (`${age} days left in your next birthday`)
 
     document.getElementById("field").classList.remove("hidden")
+    document.getElementById("h1").classList.remove("hidden")
 
     if (usermonth === 11 && userday >= 22 || usermonth === 0 && userday <= 19) {
         document.getElementById("months").innerText = "Capricorn";

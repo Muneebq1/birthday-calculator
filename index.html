@@ -11,24 +11,31 @@
 
 <body>
     <form onsubmit="calculate() ; return false">
-        <h1>Birthday Calculator</h1>
-        <div class="input">
+        <div class="heading">
+            <h1 class="h2"> Birthday 
+                <h1 class="h1"> Calculator </h1>
+            </h1>
+        </div>
+            <div class="input">
             <div class="number1">
                 <input type="date" id="userage" required>
                 <button type="submit">calculate</button>
             </div>
+            <br> <br>
             <div class="age">
-                <div id="age"></div>
-            </div>
-            <div class="daysleft">
+                <h3 id="h1" class="hidden">Your Age :
+                    <div id="age"></div></h3>
                 <div id="daysleft"></div>
             </div>
-        </div>
-        <fieldset id="field" class="hidden">
-            <legend id="star">STAR</legend>
+           
+        <fieldset id="field" class="hidden">        
+            <legend id="star">HOROSCOPE</legend>
             <div id="months" class="headings"></div>
             <div id="paraghraph" class="para"></div>
         </fieldset>
+        
+       
+    </div>
     </form>
     <script src="app.js"></script>
 </body>
