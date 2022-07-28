@@ -39,6 +39,9 @@ body {
     margin-left: 550px;
     text-align: center;
     display: flex;
+    animation: bounce;
+    animation-duration: 2s;
+
 
 }
 
