@@ -36,10 +36,10 @@ body {
 }
 
 .heading {
-    margin-left: 40%;
+    margin-left: 550px;
     text-align: center;
     display: flex;
-    animation: bounce;
+    animation: fadeInLeft;
     animation-duration: 2s;
 
 
@@ -69,11 +69,13 @@ body {
     font-size: large;
 }
 button{
-    background-color: goldenrod;
+    background-color: black;
     width: 100px;
     height: 25px;
     border-radius: 20%;
+   border-color: white;
     cursor: pointer;
+    color: white;
 }
 #userage{
     width: 150px;

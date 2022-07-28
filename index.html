@@ -7,37 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
 <body>
     <form onsubmit="calculate() ; return false">
         <div class="heading">
-            <h1 class="h2"> Birthday 
+            <h1 class="h2"> Birthday
                 <h1 class="h1"> Calculator </h1>
             </h1>
         </div>
-            <div class="input">
+        <div class="input">
             <div class="number1">
                 <input type="date" id="userage" required>
-                <button type="submit">calculate</button>
+                <button type="submit">Calculate</button>
             </div>
             <br> <br>
             <div class="age">
                 <h3 id="h1" class="hidden">Your Age :
-                    <div id="age"></div></h3>
+                    <div id="age"></div>
+                </h3>
                 <div id="daysleft"></div>
             </div>
-           
-        <fieldset id="field" class="hidden">        
-            <legend id="star">HOROSCOPE</legend>
-            <div id="months" class="headings"></div>
-            <div id="paraghraph" class="para"></div>
-        </fieldset>
-        
-       
-    </div>
+
+            <fieldset id="field" class="hidden">
+                <legend id="star">HOROSCOPE</legend>
+                <div id="months" class="headings"></div>
+                <div id="paraghraph" class="para"></div>
+            </fieldset>
+
+
+        </div>
     </form>
     <script src="app.js"></script>
 </body>
