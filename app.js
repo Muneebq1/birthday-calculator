@@ -62,9 +62,14 @@ function calculate() {
     let age = Math.ceil(
         (birthday.getTime() - date.getTime()) / multiply
     );
-    document.getElementById("daysleft").innerText = (`${age} days left in your next birthday`)
-
-    document.getElementById("field").classList.remove("hidden")
+    
+    setTimeout(() => {
+         document.getElementById("daysleft").innerHTML = (`${age} days left in your next birthday`)
+         document.getElementById("field").classList.remove("hidden")
+         }, 0300);
+   
+   
+   
     document.getElementById("h1").classList.remove("hidden")
 
     if (usermonth === 11 && userday >= 22 || usermonth === 0 && userday <= 19) {
@@ -104,6 +109,7 @@ function calculate() {
         document.getElementById("months").innerText = "Sagittarius";
         document.getElementById("paraghraph").innerText = "This centaur loves galloping around, seeing the world, and making grand plans. An adventurer at heart, the four-legged archer is creative and curious, but can be easily sidetracked (which isn’t exactly ideal when aiming a bow and arrow…)"
     }
+    return false
 
 }
 

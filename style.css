@@ -5,8 +5,9 @@ body {
     /* background-color: rgb(5, 30, 40); */
     background-color: black;
     color: white;
-   
+
 }
+
 .hidden {
     display: none;
 }
@@ -17,43 +18,47 @@ body {
     font-weight: 700;
     line-height: 3.5rem;
     color: goldenrod;
+    animation: fadeIn;
+    animation-duration: 2s;
+
 }
 
 .para {
     text-align: center;
+    animation: bounceInDown;
+    animation-duration: 2s;
+    line-height: 1.5rem;
+    
 }
 
-.h2 {
+h1 {
     text-align: center;
     color: rgb(137, 148, 163);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.h1 {
+code {
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(37, 111, 194);
 
 }
 
 .heading {
-    margin-left: 550px;
     text-align: center;
-    display: flex;
     animation: fadeInLeft;
     animation-duration: 2s;
-
-
+    cursor: pointer;
 }
-
 #star {
     text-align: center;
     color: wheat;
 }
 
 #field {
-   
+
     border-radius: 7px;
-    width: 40%;
+    width: 50%;
     margin: 10px auto;
     border: 3px;
     padding: 20px;
@@ -64,21 +69,36 @@ body {
     border-bottom-color: darkgoldenrod;
     margin-top: 50px;
 }
-.age {
-    line-height: 2rem;
-    font-size: large;
+
+#h1{
+    color: rgb(37, 111, 194);
 }
-button{
-    background-color: black;
+
+button {
+    background-color: darkred;
     width: 100px;
     height: 25px;
+    border: 2px;
+    border-style: solid;
     border-radius: 20%;
-   border-color: white;
+    border-color: darkred;
     cursor: pointer;
     color: white;
 }
-#userage{
+button:hover{
+    background-color: black;
+}
+
+#userage {
     width: 150px;
     height: 20px;
-    cursor: pointer ;
+    cursor: pointer;
 }
+
+.age {
+    margin-top: 10px;
+    animation: fadeIn;
+    animation-duration: 2s;
+    color: white;
+}
+
