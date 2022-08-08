@@ -28,7 +28,17 @@ body {
     animation: bounceInDown;
     animation-duration: 2s;
     line-height: 1.5rem;
-    
+
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 1.5s linear infinite;
+}
+@keyframes animate {
+    100% {
+       filter: hue-rotate(360deg);
+    }
+   
 }
 
 h1 {
@@ -100,5 +110,8 @@ button:hover{
     animation: fadeIn;
     animation-duration: 2s;
     color: white;
-}
+
+ }
+    
+
 
